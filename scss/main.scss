@@ -1,0 +1,330 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Raleway Regular', sans-serif;
+  font-size: 1.2vw;
+  color: white;
+}
+
+.blue{
+  background-image: url('../img/BG.png');
+  background-color: bisque;
+  padding: 3em;
+}
+
+.blue__item-shapka{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 3em;
+}
+.logotip{
+  float: left;
+}
+.logotip-text{
+  float: right;
+}
+.menu li {
+  display: inline;
+  text-align: justify;
+}
+.blue__item-telo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1{
+  font-family: 'Raleway ExtraBold', sans-serif;
+  margin-bottom: 0.2em;
+}
+p{
+  font-family: 'Raleway Regular', sans-serif;
+}
+
+
+.blue__item-telo__lorem{
+  width: 45%;
+  padding-right: 2em;
+}
+.blue__item-telo__lorem p{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.blue__item-telo__video{
+  width: 45%;
+  height: 100%;
+}
+
+h4{
+  color: black;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color: black;
+}
+.knopki{
+  padding-top: 1em;
+}
+
+.knopka_sh{
+  background-color: rgba(205, 238, 238, 0.13);;
+  /*background: rgba(66, 175, 179, 0.48);*/
+  border-style: solid;
+  border-color: white;
+  border-radius: 0.3em;
+  color: white;
+  border-width: 1.5px;
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-size: 1vw;
+
+}
+.knopka1{
+  background: #051d36;
+  font-family: 'Raleway Regular', sans-serif;
+  font-size: 1vw;
+  border-style: solid;
+  color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1.8em;
+  padding-right: 1.8em;
+  border-color: #051d36;
+  border-radius: 0.4em;
+  margin-right: 2em;
+  box-shadow: 0 2px rgb(52, 142, 147)
+}
+.knopka2{
+  background: white;
+  font-family: 'Raleway Regular', sans-serif;
+  font-size: 1vw;
+  border-style: solid;
+  padding: 1em;
+  border-color: white;
+  border-radius: 0.4em;
+  box-shadow: 0 2px rgb(52, 142, 147)
+}
+.poster{
+  width: 100%; height: 100%;
+}
+.videoV{
+  width: 100%;
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+.for_video{
+  position: absolute;
+  margin-left: 18%;
+  margin-top: -15%;
+  z-index: 2;
+  text-align: center;
+}
+.knopka_vt{
+  width: 4vw;
+}
+.for_video h5{
+  font-size: 0.8vw;
+  color: black;
+}
+.easy{background-color: white;
+
+}
+.easy__top{
+  display: block;
+  text-align: center;
+  max-width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 3rem;
+  font-family: 'Raleway Regular', sans-serif;
+  color: rgba(165, 179, 186, 0.99);
+}
+.easyText{
+  color: black;
+}
+.easy__top h3{
+  padding-bottom: 1rem;
+}
+.easy__middle{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1rem;
+}
+.easy__middle_icon{
+  display: block;
+  text-align: center;
+  width: 30%;
+  padding: 3rem;
+}
+.easy__middle_icon p{
+  color: rgba(165, 179, 186, 0.99);
+}
+.title{
+  padding-bottom: 1rem;
+  padding-top: 1.5rem;
+}
+
+.easy__knopka-get{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 3em;
+  padding-left: 5.5em;
+  padding-bottom: 4em;
+
+
+}
+.knopka-get{
+  background: #1de9b6;
+  font-family: 'Raleway Regular', sans-serif;
+  font-size: 1vw;
+  border-style: solid;
+  color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1.8em;
+  padding-right: 1.8em;
+  border-color: #1de9b6;
+  border-radius: 0.4em;
+  margin-right: 2em;
+  box-shadow: 0 2px rgb(52, 142, 147)
+}
+.easy__bottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 2rem;
+}
+.easy__bottom-item{
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2vw;
+  align-items: center;
+}
+
+.easy__bottom-item.business{
+  background: #80d8ff;
+
+}
+.easy__bottom-item.downloads
+{
+  background: #82b1ff;
+}
+.easy__bottom-item.installs{
+  background: #b388ff;
+}
+.easy__bottom-item.users{
+  background: #ea80fc;
+}
+.right{
+  margin-left: 1vw;
+
+}
+
+
+.services{
+  font-family: 'Raleway Regular', sans-serif;
+  color: black;
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.services__onlyText{
+  text-align: center;
+  padding: 2rem;
+}
+.direction{
+  width: 100%;
+}
+li{list-style-type: none;
+
+}
+li input{
+  width: 100%;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+
+@media all and (max-width: 1024px) {
+  .blue__item-shapka__menu{
+    display: flex;
+    flex-direction: column;
+  }
+  .blue__item-telo{
+    flex-direction: column;
+    font-size: 1rem;
+  }
+  .blue__item-telo__lorem{
+    width: 100%;
+    padding-right: 0;
+    padding-left: 3rem;
+  }
+  .blue__item-telo__video{
+    width: 100%;
+  }
+  .hidden_button{
+    background: white;
+    border: white;
+    border-radius: 3rem;
+  }
+
+  .knopka_sh{font-size: 0.8rem;}
+  .knopki{padding-bottom: 2rem;}
+  .knopka1{font-size: 0.8rem;}
+  .knopka2{font-size: 0.8rem;}
+  .knopka_vt{
+    width: 8vw;
+  }
+  .for_video h5{
+    font-size: 1.5vw;}
+  .for_video{
+    margin-left: 35vw;
+    margin-top: -28vw;
+  }
+
+  .easy__middle{
+    flex-direction: column;
+    font-size: 1rem;
+    align-items: center;
+  }
+  .easy__bottom{
+    flex-direction: column;
+    font-size: 0.8rem;
+  }
+  .easy__bottom-item{
+    width: 100%;}
+  body{font-size: 1rem;}
+  .easy__top{max-width: 100%;}
+  .easy__middle_icon{
+    width: 100%;}
+  .knopka-get{font-size: 0.8rem;}
+  .services{
+    width: 90%;
+    padding: 0.8rem;
+  }
+  .services__inputBox{
+    width: 90%;
+  }
+
+
+}
+.services__onlyText h1{
+  color: red;
+  text-transform: uppercase;
+}
